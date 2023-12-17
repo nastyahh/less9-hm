@@ -1,1 +1,41 @@
 @import "reset";
+
+$margin: 10px;
+$height: 170px;
+
+.section {
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  .block {
+    background-color: #e35549;
+    font-size: 40px;
+  }
+  .header {
+    margin-bottom: $margin;
+    height: $height;
+  }
+}
+.banner {
+  display: flex;
+}
+.banner__left-block {
+  width: 65%;
+  margin-right: $margin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .banner__block-2 {
+    width: 100%;
+    margin-bottom: $margin;
+    height: $height;
+  }
+  .banner__block-3,
+  .banner__block-4 {
+    width: 49%;
+    height: $height;
+  }
+}
+.banner__right-block {
+  width: 35%;
+}
