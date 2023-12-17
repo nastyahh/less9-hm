@@ -1,0 +1,56 @@
+@media (width <= 768px) {
+  .banner {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .banner__left-block {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .banner__left-block .banner__block-2 {
+    margin: 0;
+  }
+
+  .banner__left-block .banner__block-2, .banner__left-block .banner__block-3, .banner__left-block .banner__block-4 {
+    width: 32%;
+  }
+
+  .banner__left-block .banner__block-4 {
+    margin-right: 0;
+  }
+
+  .banner__right-block {
+    width: 100%;
+    height: 170px;
+  }
+}
+
+@media (width <= 320px) {
+  .banner__left-block .banner__block-2 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .banner__left-block .banner__block-3, .banner__left-block .banner__block-4 {
+    width: 49%;
+  }
+}
+
+@media (width >= 320px) and (width <= 600px) and (orientation: landscape) {
+  .banner__left-block .banner__block-2 {
+    margin-bottom: 10px;
+  }
+
+  .banner__left-block .banner__block-2, .banner__left-block .banner__block-3 {
+    width: 100%;
+  }
+
+  .banner__left-block .banner__block-4, .banner__right-block {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=index.3a4b6f68.css.map */
